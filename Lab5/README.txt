@@ -1,0 +1,1 @@
+Design a 4X4 multiplier Take the input from PMOD switches. Display the input on external SSD and display the resultant product on the on board seven segment display.

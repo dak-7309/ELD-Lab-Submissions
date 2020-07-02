@@ -1,0 +1,1658 @@
+02:20:49 **** Build of project randi_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_4/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/Led_ip_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/Led_ip_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v4_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_0/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v7_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_4/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/Led_ip_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/Led_ip_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling Led_ip..."
+Led_ip_selftest.c: In function 'LED_IP_Reg_SelfTest':
+Led_ip_selftest.c:52:55: warning: comparison of integer expressions of different signedness: 'u32' {aka 'long unsigned int'} and 'int' [-Wsign-compare]
+    if ( LED_IP_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+                                                       ^~
+Led_ip_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v4_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v7_0/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v7_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+02:21:20 **** Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: randi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../randi_bsp/ps7_cortexa9_0/lib -o "randi.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: randi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size randi.elf  |tee "randi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19064	   1144	  22568	  42776	   a718	randi.elf
+'Finished building: randi.elf.size'
+' '
+02:23:23 **** Incremental Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:91:6: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   if(counter = 16){
+      ^~~~~~~
+../src/helloworld.c:94:11: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   else if(counter = -1){
+           ^~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: randi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../randi_bsp/ps7_cortexa9_0/lib -o "randi.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: randi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size randi.elf  |tee "randi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30992	   1560	  23272	  55824	   da10	randi.elf
+'Finished building: randi.elf.size'
+' '
+02:23:52 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: randi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../randi_bsp/ps7_cortexa9_0/lib -o "randi.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: randi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size randi.elf  |tee "randi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31056	   1560	  23272	  55888	   da50	randi.elf
+'Finished building: randi.elf.size'
+' '
+02:24:06 **** Incremental Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+02:27:34 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: randi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../randi_bsp/ps7_cortexa9_0/lib -o "randi.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: randi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size randi.elf  |tee "randi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31056	   1560	  23272	  55888	   da50	randi.elf
+'Finished building: randi.elf.size'
+' '
+02:28:45 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: randi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../randi_bsp/ps7_cortexa9_0/lib -o "randi.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: randi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size randi.elf  |tee "randi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31056	   1560	  23272	  55888	   da50	randi.elf
+'Finished building: randi.elf.size'
+' '
+02:29:09 **** Incremental Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+02:35:04 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: randi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../randi_bsp/ps7_cortexa9_0/lib -o "randi.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: randi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size randi.elf  |tee "randi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  59836	   2600	  23328	  85764	  14f04	randi.elf
+'Finished building: randi.elf.size'
+' '
+02:35:25 **** Incremental Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+02:37:07 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: randi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../randi_bsp/ps7_cortexa9_0/lib -o "randi.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: randi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size randi.elf  |tee "randi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29428	   1544	  23256	  54228	   d3d4	randi.elf
+'Finished building: randi.elf.size'
+' '
+02:37:20 **** Incremental Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+02:38:45 **** Incremental Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+02:39:47 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: randi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../randi_bsp/ps7_cortexa9_0/lib -o "randi.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: randi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size randi.elf  |tee "randi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29428	   1544	  23256	  54228	   d3d4	randi.elf
+'Finished building: randi.elf.size'
+' '
+02:42:27 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: randi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../randi_bsp/ps7_cortexa9_0/lib -o "randi.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: randi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size randi.elf  |tee "randi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29428	   1544	  23256	  54228	   d3d4	randi.elf
+'Finished building: randi.elf.size'
+' '
+21:28:17 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: randi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../randi_bsp/ps7_cortexa9_0/lib -o "randi.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: randi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size randi.elf  |tee "randi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31056	   1560	  23272	  55888	   da50	randi.elf
+'Finished building: randi.elf.size'
+' '
+21:29:40 **** Incremental Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:34:53 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: randi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../randi_bsp/ps7_cortexa9_0/lib -o "randi.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: randi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size randi.elf  |tee "randi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30984	   1560	  23272	  55816	   da08	randi.elf
+'Finished building: randi.elf.size'
+' '
+21:34:57 **** Incremental Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:36:33 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: randi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../randi_bsp/ps7_cortexa9_0/lib -o "randi.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: randi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size randi.elf  |tee "randi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30984	   1560	  23272	  55816	   da08	randi.elf
+'Finished building: randi.elf.size'
+' '
+21:39:30 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:63:6: warning: variable 'daddy' set but not used [-Wunused-but-set-variable]
+  int daddy=0;
+      ^~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: randi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../randi_bsp/ps7_cortexa9_0/lib -o "randi.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: randi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size randi.elf  |tee "randi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31048	   1560	  23272	  55880	   da48	randi.elf
+'Finished building: randi.elf.size'
+' '
+21:40:11 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: randi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../randi_bsp/ps7_cortexa9_0/lib -o "randi.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: randi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size randi.elf  |tee "randi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31048	   1560	  23272	  55880	   da48	randi.elf
+'Finished building: randi.elf.size'
+' '
+21:40:21 **** Incremental Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:42:09 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: randi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../randi_bsp/ps7_cortexa9_0/lib -o "randi.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: randi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size randi.elf  |tee "randi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31048	   1560	  23272	  55880	   da48	randi.elf
+'Finished building: randi.elf.size'
+' '
+21:42:35 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:105:23: error: invalid operands to binary + (have 'char *' and 'char *')
+    xil_printf("hello" + "\n\r");
+               ~~~~~~~ ^
+../src/helloworld.c:63:6: warning: variable 'daddy' set but not used [-Wunused-but-set-variable]
+  int daddy=0;
+      ^~~~~
+make: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+21:42:39 **** Incremental Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:105:23: error: invalid operands to binary + (have 'char *' and 'char *')
+    xil_printf("hello" + "\n\r");
+               ~~~~~~~ ^
+../src/helloworld.c:63:6: warning: variable 'daddy' set but not used [-Wunused-but-set-variable]
+  int daddy=0;
+      ^~~~~
+make: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+21:44:07 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:105:21: error: invalid operands to binary + (have 'char *' and 'char *')
+   xil_printf("Hello"+"\n\r");
+              ~~~~~~~^
+../src/helloworld.c:63:6: warning: variable 'daddy' set but not used [-Wunused-but-set-variable]
+  int daddy=0;
+      ^~~~~
+make: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+21:44:32 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:105:14: warning: character constant too long for its type
+   xil_printf('Hello'+''\n\r');
+              ^~~~~~~
+../src/helloworld.c:105:22: error: empty character constant
+   xil_printf('Hello'+''\n\r');
+                      ^~
+../src/helloworld.c:105:24: error: stray '\' in program
+   xil_printf('Hello'+''\n\r');
+                        ^
+../src/helloworld.c:105:24: error: expected ')' before 'n'
+   xil_printf('Hello'+''\n\r');
+                        ^~
+                        )
+../src/helloworld.c:105:26: error: stray '\' in program
+   xil_printf('Hello'+''\n\r');
+                          ^
+../src/helloworld.c:105:28: warning: missing terminating ' character
+   xil_printf('Hello'+''\n\r');
+                            ^
+../src/helloworld.c:105:28: error: missing terminating ' character
+   xil_printf('Hello'+''\n\r');
+                            ^~~
+../src/helloworld.c:105:14: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+   xil_printf('Hello'+''\n\r');
+              ^~~~~~~~~~
+In file included from ../src/helloworld.c:50:
+../../randi_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+../src/helloworld.c:105:28: error: expected ';' before '}' token
+   xil_printf('Hello'+''\n\r');
+                            ^
+                            ;
+../src/helloworld.c:109:2:
+  }
+  ~                          
+../src/helloworld.c:63:6: warning: variable 'daddy' set but not used [-Wunused-but-set-variable]
+  int daddy=0;
+      ^~~~~
+make: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+21:44:49 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: randi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../randi_bsp/ps7_cortexa9_0/lib -o "randi.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: randi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size randi.elf  |tee "randi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31048	   1560	  23272	  55880	   da48	randi.elf
+'Finished building: randi.elf.size'
+' '
+21:45:33 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:63:6: warning: variable 'daddy' set but not used [-Wunused-but-set-variable]
+  int daddy;
+      ^~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: randi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../randi_bsp/ps7_cortexa9_0/lib -o "randi.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: randi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size randi.elf  |tee "randi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31048	   1560	  23272	  55880	   da48	randi.elf
+'Finished building: randi.elf.size'
+' '
+21:45:58 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:63:6: warning: variable 'daddy' set but not used [-Wunused-but-set-variable]
+  int daddy;
+      ^~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: randi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../randi_bsp/ps7_cortexa9_0/lib -o "randi.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: randi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size randi.elf  |tee "randi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31048	   1560	  23272	  55880	   da48	randi.elf
+'Finished building: randi.elf.size'
+' '
+21:46:01 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:63:6: warning: variable 'daddy' set but not used [-Wunused-but-set-variable]
+  int daddy;
+      ^~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: randi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../randi_bsp/ps7_cortexa9_0/lib -o "randi.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: randi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size randi.elf  |tee "randi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31048	   1560	  23272	  55880	   da48	randi.elf
+'Finished building: randi.elf.size'
+' '
+21:46:09 **** Incremental Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:47:14 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:63:6: warning: variable 'daddy' set but not used [-Wunused-but-set-variable]
+  int daddy;
+      ^~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: randi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../randi_bsp/ps7_cortexa9_0/lib -o "randi.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: randi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size randi.elf  |tee "randi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31048	   1560	  23272	  55880	   da48	randi.elf
+'Finished building: randi.elf.size'
+' '
+21:47:18 **** Incremental Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:48:47 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:105:15: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+    xil_printf(daddy);
+               ^~~~~
+In file included from ../src/helloworld.c:50:
+../../randi_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: randi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../randi_bsp/ps7_cortexa9_0/lib -o "randi.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: randi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size randi.elf  |tee "randi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31048	   1560	  23272	  55880	   da48	randi.elf
+'Finished building: randi.elf.size'
+' '
+21:48:56 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:105:15: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+    xil_printf(daddy);
+               ^~~~~
+In file included from ../src/helloworld.c:50:
+../../randi_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: randi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../randi_bsp/ps7_cortexa9_0/lib -o "randi.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: randi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size randi.elf  |tee "randi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31048	   1560	  23272	  55880	   da48	randi.elf
+'Finished building: randi.elf.size'
+' '
+21:49:17 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:63:6: warning: variable 'daddy' set but not used [-Wunused-but-set-variable]
+  int daddy=0;
+      ^~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: randi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../randi_bsp/ps7_cortexa9_0/lib -o "randi.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: randi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size randi.elf  |tee "randi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31056	   1560	  23272	  55888	   da50	randi.elf
+'Finished building: randi.elf.size'
+' '
+21:49:47 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: randi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../randi_bsp/ps7_cortexa9_0/lib -o "randi.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: randi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size randi.elf  |tee "randi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31048	   1560	  23272	  55880	   da48	randi.elf
+'Finished building: randi.elf.size'
+' '
+21:49:56 **** Incremental Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:51:38 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:80:18: error: invalid operands to binary + (have 'char *' and 'char *')
+    xil_printf("1"+"\n\r");
+               ~~~^
+make: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+21:51:47 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: randi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../randi_bsp/ps7_cortexa9_0/lib -o "randi.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: randi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size randi.elf  |tee "randi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31116	   1560	  23272	  55948	   da8c	randi.elf
+'Finished building: randi.elf.size'
+' '
+21:52:27 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: randi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../randi_bsp/ps7_cortexa9_0/lib -o "randi.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: randi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size randi.elf  |tee "randi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31188	   1560	  23272	  56020	   dad4	randi.elf
+'Finished building: randi.elf.size'
+' '
+21:52:30 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: randi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../randi_bsp/ps7_cortexa9_0/lib -o "randi.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: randi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size randi.elf  |tee "randi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31192	   1560	  23272	  56024	   dad8	randi.elf
+'Finished building: randi.elf.size'
+' '
+21:52:43 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: randi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../randi_bsp/ps7_cortexa9_0/lib -o "randi.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: randi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size randi.elf  |tee "randi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31128	   1560	  23272	  55960	   da98	randi.elf
+'Finished building: randi.elf.size'
+' '
+21:52:48 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:63:6: warning: unused variable 'daddy' [-Wunused-variable]
+  int daddy=0;
+      ^~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: randi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../randi_bsp/ps7_cortexa9_0/lib -o "randi.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: randi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size randi.elf  |tee "randi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31128	   1560	  23272	  55960	   da98	randi.elf
+'Finished building: randi.elf.size'
+' '
+21:52:54 **** Incremental Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:54:01 **** Incremental Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:63:6: warning: unused variable 'daddy' [-Wunused-variable]
+  int daddy=0;
+      ^~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: randi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../randi_bsp/ps7_cortexa9_0/lib -o "randi.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: randi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size randi.elf  |tee "randi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31160	   1560	  23272	  55992	   dab8	randi.elf
+'Finished building: randi.elf.size'
+' '
+22:12:34 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:63:6: warning: unused variable 'daddy' [-Wunused-variable]
+  int daddy=0;
+      ^~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: randi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../randi_bsp/ps7_cortexa9_0/lib -o "randi.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: randi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size randi.elf  |tee "randi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31160	   1560	  23272	  55992	   dab8	randi.elf
+'Finished building: randi.elf.size'
+' '
+22:18:05 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:110:3: error: 'data' undeclared (first use in this function)
+   data = XGpio_DiscreteRead(&buttons,1);
+   ^~~~
+../src/helloworld.c:110:3: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:110:30: error: 'buttons' undeclared (first use in this function)
+   data = XGpio_DiscreteRead(&buttons,1);
+                              ^~~~~~~
+../src/helloworld.c:112:3: warning: implicit declaration of function 'LED_NEW_mWriteReg'; did you mean 'LED_IP_mWriteReg'? [-Wimplicit-function-declaration]
+   LED_NEW_mWriteReg(XPAR_LED_NEW_0_S00_AXI_BASEADDR, 0, data);
+   ^~~~~~~~~~~~~~~~~
+   LED_IP_mWriteReg
+../src/helloworld.c:112:21: error: 'XPAR_LED_NEW_0_S00_AXI_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_LED_IP_0_S_AXI_BASEADDR'?
+   LED_NEW_mWriteReg(XPAR_LED_NEW_0_S00_AXI_BASEADDR, 0, data);
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                     XPAR_LED_IP_0_S_AXI_BASEADDR
+../src/helloworld.c:63:6: warning: unused variable 'daddy' [-Wunused-variable]
+  int daddy=0;
+      ^~~~~
+make: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+22:18:22 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:112:3: warning: implicit declaration of function 'LED_NEW_mWriteReg'; did you mean 'LED_IP_mWriteReg'? [-Wimplicit-function-declaration]
+   LED_NEW_mWriteReg(XPAR_LED_NEW_0_S00_AXI_BASEADDR, 0, data);
+   ^~~~~~~~~~~~~~~~~
+   LED_IP_mWriteReg
+../src/helloworld.c:112:21: error: 'XPAR_LED_NEW_0_S00_AXI_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_LED_IP_0_S_AXI_BASEADDR'?
+   LED_NEW_mWriteReg(XPAR_LED_NEW_0_S00_AXI_BASEADDR, 0, data);
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                     XPAR_LED_IP_0_S_AXI_BASEADDR
+../src/helloworld.c:112:21: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:63:6: warning: unused variable 'daddy' [-Wunused-variable]
+  int daddy=0;
+      ^~~~~
+make: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+22:19:47 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:63:6: warning: unused variable 'daddy' [-Wunused-variable]
+  int daddy=0;
+      ^~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: randi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../randi_bsp/ps7_cortexa9_0/lib -o "randi.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: randi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size randi.elf  |tee "randi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20436	   1160	  22584	  44180	   ac94	randi.elf
+'Finished building: randi.elf.size'
+' '
+22:20:52 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:111:14: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+   xil_printf(counter);
+              ^~~~~~~
+In file included from ../src/helloworld.c:50:
+../../randi_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+../src/helloworld.c:63:6: warning: unused variable 'daddy' [-Wunused-variable]
+  int daddy=0;
+      ^~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: randi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../randi_bsp/ps7_cortexa9_0/lib -o "randi.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: randi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size randi.elf  |tee "randi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30980	   1560	  23272	  55812	   da04	randi.elf
+'Finished building: randi.elf.size'
+' '
+22:22:30 **** Incremental Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:22:57 **** Incremental Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:24:02 **** Incremental Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:24:34 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:111:14: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+   xil_printf(counter);
+              ^~~~~~~
+In file included from ../src/helloworld.c:50:
+../../randi_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+../src/helloworld.c:63:6: warning: unused variable 'daddy' [-Wunused-variable]
+  int daddy=0;
+      ^~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: randi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../randi_bsp/ps7_cortexa9_0/lib -o "randi.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: randi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size randi.elf  |tee "randi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30988	   1560	  23272	  55820	   da0c	randi.elf
+'Finished building: randi.elf.size'
+' '
+22:24:42 **** Incremental Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:25:23 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:111:14: warning: missing terminating " character
+   xil_printf("balle:);
+              ^
+../src/helloworld.c:111:14: error: missing terminating " character
+   xil_printf("balle:);
+              ^~~~~~~~~
+../src/helloworld.c:116:20: error: expected ')' before ';' token
+   usleep(sleep_var);
+                    ^
+                    )
+../src/helloworld.c:116:3: error: invalid use of void expression
+   usleep(sleep_var);
+   ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:116:21: error: expected ';' before '}' token
+   usleep(sleep_var);
+                     ^
+                     ;
+../src/helloworld.c:118:2:
+  }
+  ~                   
+../src/helloworld.c:63:6: warning: unused variable 'daddy' [-Wunused-variable]
+  int daddy=0;
+      ^~~~~
+make: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+22:25:26 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:63:6: warning: unused variable 'daddy' [-Wunused-variable]
+  int daddy=0;
+      ^~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: randi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../randi_bsp/ps7_cortexa9_0/lib -o "randi.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: randi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size randi.elf  |tee "randi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30996	   1560	  23272	  55828	   da14	randi.elf
+'Finished building: randi.elf.size'
+' '
+22:25:37 **** Incremental Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:26:23 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:111:14: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+   xil_printf(3);
+              ^
+In file included from ../src/helloworld.c:50:
+../../randi_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+../src/helloworld.c:63:6: warning: unused variable 'daddy' [-Wunused-variable]
+  int daddy=0;
+      ^~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: randi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../randi_bsp/ps7_cortexa9_0/lib -o "randi.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: randi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size randi.elf  |tee "randi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31056	   1560	  23272	  55888	   da50	randi.elf
+'Finished building: randi.elf.size'
+' '
+22:26:32 **** Incremental Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:27:08 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:111:14: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+   xil_printf(15);
+              ^~
+In file included from ../src/helloworld.c:50:
+../../randi_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+../src/helloworld.c:63:6: warning: unused variable 'daddy' [-Wunused-variable]
+  int daddy=0;
+      ^~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: randi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../randi_bsp/ps7_cortexa9_0/lib -o "randi.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: randi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size randi.elf  |tee "randi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31056	   1560	  23272	  55888	   da50	randi.elf
+'Finished building: randi.elf.size'
+' '
+22:28:21 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:111:14: error: expected expression before '%' token
+   xil_printf(%d,10);
+              ^
+../src/helloworld.c:63:6: warning: unused variable 'daddy' [-Wunused-variable]
+  int daddy=0;
+      ^~~~~
+make: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+22:29:37 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:63:6: warning: unused variable 'daddy' [-Wunused-variable]
+  int daddy=0;
+      ^~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: randi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../randi_bsp/ps7_cortexa9_0/lib -o "randi.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: randi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size randi.elf  |tee "randi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31060	   1560	  23272	  55892	   da54	randi.elf
+'Finished building: randi.elf.size'
+' '
+22:29:44 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:63:6: warning: unused variable 'daddy' [-Wunused-variable]
+  int daddy=0;
+      ^~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: randi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../randi_bsp/ps7_cortexa9_0/lib -o "randi.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: randi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size randi.elf  |tee "randi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31060	   1560	  23272	  55892	   da54	randi.elf
+'Finished building: randi.elf.size'
+' '
+22:29:55 **** Incremental Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:32:36 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:63:6: warning: unused variable 'daddy' [-Wunused-variable]
+  int daddy=0;
+      ^~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: randi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../randi_bsp/ps7_cortexa9_0/lib -o "randi.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: randi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size randi.elf  |tee "randi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30988	   1560	  23272	  55820	   da0c	randi.elf
+'Finished building: randi.elf.size'
+' '
+22:32:43 **** Incremental Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:35:19 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:117:3: warning: implicit declaration of function 'Led_ip_mWriteReg'; did you mean 'LED_IP_mWriteReg'? [-Wimplicit-function-declaration]
+   Led_ip_mWriteReg(XPAR_LED_IP_0_S_AXI_BASEADDR, 0, button_data);
+   ^~~~~~~~~~~~~~~~
+   LED_IP_mWriteReg
+../src/helloworld.c:63:6: warning: unused variable 'daddy' [-Wunused-variable]
+  int daddy=0;
+      ^~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: randi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../randi_bsp/ps7_cortexa9_0/lib -o "randi.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./src/helloworld.o: in function `main':
+C:\Users\daksh18137\hw11\hw11.sdk\randi\Debug/../src/helloworld.c:117: undefined reference to `Led_ip_mWriteReg'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: randi.elf] Error 1
+22:35:29 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:63:6: warning: unused variable 'daddy' [-Wunused-variable]
+  int daddy=0;
+      ^~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: randi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../randi_bsp/ps7_cortexa9_0/lib -o "randi.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: randi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size randi.elf  |tee "randi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31116	   1560	  23272	  55948	   da8c	randi.elf
+'Finished building: randi.elf.size'
+' '
+22:35:39 **** Incremental Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:37:22 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:63:6: warning: unused variable 'daddy' [-Wunused-variable]
+  int daddy=0;
+      ^~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: randi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../randi_bsp/ps7_cortexa9_0/lib -o "randi.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: randi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size randi.elf  |tee "randi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20508	   1160	  22584	  44252	   acdc	randi.elf
+'Finished building: randi.elf.size'
+' '
+22:37:43 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:63:6: warning: unused variable 'daddy' [-Wunused-variable]
+  int daddy=0;
+      ^~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: randi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../randi_bsp/ps7_cortexa9_0/lib -o "randi.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: randi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size randi.elf  |tee "randi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20508	   1160	  22584	  44252	   acdc	randi.elf
+'Finished building: randi.elf.size'
+' '
+22:37:51 **** Incremental Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:39:45 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:63:6: warning: unused variable 'daddy' [-Wunused-variable]
+  int daddy=0;
+      ^~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: randi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../randi_bsp/ps7_cortexa9_0/lib -o "randi.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: randi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size randi.elf  |tee "randi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31116	   1560	  23272	  55948	   da8c	randi.elf
+'Finished building: randi.elf.size'
+' '
+22:54:35 **** Incremental Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:63:6: warning: unused variable 'daddy' [-Wunused-variable]
+  int daddy=0;
+      ^~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: randi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../randi_bsp/ps7_cortexa9_0/lib -o "randi.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: randi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size randi.elf  |tee "randi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31164	   1560	  23272	  55996	   dabc	randi.elf
+'Finished building: randi.elf.size'
+' '
+22:56:29 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:63:6: warning: unused variable 'daddy' [-Wunused-variable]
+  int daddy=0;
+      ^~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: randi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../randi_bsp/ps7_cortexa9_0/lib -o "randi.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: randi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size randi.elf  |tee "randi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31164	   1560	  23272	  55996	   dabc	randi.elf
+'Finished building: randi.elf.size'
+' '
+22:57:35 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:63:6: warning: unused variable 'daddy' [-Wunused-variable]
+  int daddy=0;
+      ^~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: randi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../randi_bsp/ps7_cortexa9_0/lib -o "randi.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: randi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size randi.elf  |tee "randi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31164	   1560	  23272	  55996	   dabc	randi.elf
+'Finished building: randi.elf.size'
+' '
+22:57:56 **** Incremental Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:59:25 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:63:6: warning: unused variable 'daddy' [-Wunused-variable]
+  int daddy=0;
+      ^~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: randi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../randi_bsp/ps7_cortexa9_0/lib -o "randi.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: randi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size randi.elf  |tee "randi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31164	   1560	  23272	  55996	   dabc	randi.elf
+'Finished building: randi.elf.size'
+' '
+22:59:41 **** Incremental Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:06:29 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:63:6: warning: unused variable 'daddy' [-Wunused-variable]
+  int daddy=0;
+      ^~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: randi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../randi_bsp/ps7_cortexa9_0/lib -o "randi.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: randi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size randi.elf  |tee "randi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31100	   1560	  23272	  55932	   da7c	randi.elf
+'Finished building: randi.elf.size'
+' '
+23:06:40 **** Incremental Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:08:31 **** Auto Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:63:6: warning: unused variable 'daddy' [-Wunused-variable]
+  int daddy=0;
+      ^~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: randi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../randi_bsp/ps7_cortexa9_0/lib -o "randi.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: randi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size randi.elf  |tee "randi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30988	   1560	  23272	  55820	   da0c	randi.elf
+'Finished building: randi.elf.size'
+' '
+23:09:14 **** Incremental Build of configuration Debug for project randi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../randi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:63:6: warning: unused variable 'daddy' [-Wunused-variable]
+  int daddy=0;
+      ^~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: randi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../randi_bsp/ps7_cortexa9_0/lib -o "randi.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: randi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size randi.elf  |tee "randi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30988	   1560	  23272	  55820	   da0c	randi.elf
+'Finished building: randi.elf.size'
+' '
